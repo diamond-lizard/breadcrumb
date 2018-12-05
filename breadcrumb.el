@@ -443,7 +443,7 @@ It's the position (point) for normal buffer and (info-node-name point) for Info 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; *Breadcrumb Bookmark* menu functions
 
-(defun bc-revert-buffer (&optional ignore-auto _noconfirm)
+(defun bc-revert-buffer (&optional _ignore-auto _noconfirm)
   (let ((line (line-number-at-pos (point))))
     (bc-menu-redraw)
     (goto-char (point-min))
