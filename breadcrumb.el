@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 ;;; breadcrumb.el --- Breadcrumb.  Set breadcrumb bookmarks and jump to them.
 ;;
 ;; Copyright (C) 2004-2008 William W. Wong
