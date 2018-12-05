@@ -76,6 +76,7 @@ The list is (Bookmark1 Bookmark2 ...) where each Bookmark is (TYPE FILENAME . PO
 
 (defcustom bc-switch-buffer-func 'switch-to-buffer
   "*Function to use to switch to a buffer"
+  :type 'function
   :group 'breadcrumb)
 
 (defcustom bc-bookmark-limit 16
