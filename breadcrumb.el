@@ -539,7 +539,7 @@ It's the position (point) for normal buffer and (info-node-name point) for Info 
   (save-excursion
     (goto-char (point-min))
     (forward-line bc--menu-table-offset)
-    (dotimes (i (length *bc-bookmarks*))
+    (dotimes (_ (length *bc-bookmarks*))
       (bc-menu-mark-char mark-char)
       ))
   )
